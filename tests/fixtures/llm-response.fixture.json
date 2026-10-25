@@ -1,0 +1,32 @@
+[
+  {
+    "adId": "ad_1001",
+    "hook": "Speak English confidently in 30 days",
+    "offer": "Free trial lesson",
+    "cta": "Learn More",
+    "creativeAngle": "Outcome + social proof",
+    "persuasionTechnique": "social_proof",
+    "targetAudienceSignals": ["language learners", "busy adults"],
+    "evidence": {
+      "sourceUrl": "https://www.facebook.com/ads/library/?id=1001",
+      "excerpt": "Join 12,000+ students. Free trial lesson today – cancel anytime."
+    },
+    "confidence": "medium",
+    "uncertaintyNotes": []
+  },
+  {
+    "adId": "ad_1002",
+    "hook": "Online courses with lifetime access",
+    "offer": "40% off career bootcamps",
+    "cta": "Shop Now",
+    "creativeAngle": "Discount urgency",
+    "persuasionTechnique": "urgency",
+    "targetAudienceSignals": ["career switchers"],
+    "evidence": {
+      "sourceUrl": "https://www.facebook.com/ads/library/?id=1002",
+      "excerpt": "Limited-time 40% off career bootcamps. Start this week."
+    },
+    "confidence": "medium",
+    "uncertaintyNotes": ["Discount end date not present in creative text"]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "inputUrl": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=PL&q=online%20education&search_type=keyword_unordered",
+    "pageID": "16453004404",
+    "adArchiveID": "1229350099285014",
+    "startDateFormatted": "2025-11-16T07:00:00.000Z",
+    "endDateFormatted": null,
+    "isActive": true,
+    "publisherPlatform": ["FACEBOOK", "INSTAGRAM"],
+    "snapshot": {
+      "pageId": "16453004404",
+      "pageName": "Learnify Online",
+      "pageProfileUri": "https://www.facebook.com/learnify/",
+      "caption": "learnify.example",
+      "ctaText": "Learn More",
+      "title": "Speak English confidently in 30 days",
+      "body": "Join 12,000+ students. Free trial lesson today – cancel anytime.",
+      "linkUrl": "https://example.com/learnify/trial",
+      "images": [
+        {
+          "originalImageUrl": "https://example.com/creatives/learnify-1.jpg"
+        }
+      ],
+      "cards": []
+    }
+  },
+  {
+    "adArchiveId": "998877665544",
+    "startDateFormatted": "2025-10-01T00:00:00.000Z",
+    "endDateFormatted": "2026-01-01T00:00:00.000Z",
+    "isActive": false,
+    "publisherPlatform": ["INSTAGRAM"],
+    "snapshot": {
+      "pageName": "SkillSprint",
+      "ctaText": "Shop Now",
+      "title": "Online courses with lifetime access",
+      "body": "Limited-time 40% off career bootcamps. Start this week.",
+      "linkUrl": "https://example.com/skillsprint/offer",
+      "cards": [
+        {
+          "body": "Bootcamp seats filling up",
+          "title": "40% off this week",
+          "ctaText": "Shop Now",
+          "linkUrl": "https://example.com/skillsprint/offer",
+          "videoPreviewImageUrl": "https://example.com/creatives/skillsprint-1.jpg",
+          "videoHdUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+          "videoSdUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+        }
+      ]
+    }
+  },
+  {
+    "adArchiveID": "broken-item-without-enough-fields",
+    "snapshot": null
+  }
+]

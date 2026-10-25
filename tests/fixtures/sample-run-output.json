@@ -1,0 +1,40 @@
+{
+  "description": "Abbreviated example agent JSON output for README / manual verification.",
+  "runId": "demo-run-0001",
+  "status": "partial",
+  "adsFound": 3,
+  "adsAnalyzed": 3,
+  "humanSummary": "Research summary for \"online education\" in Poland. Ads found: 3. Sample hooks observed: Speak English confidently in 30 days; Online courses with lifetime access. Scores reflect data completeness and pattern signals only – not campaign profitability.",
+  "insights": {
+    "recurringHooks": [
+      "Speak English confidently in 30 days",
+      "Online courses with lifetime access"
+    ],
+    "recurringOffers": [],
+    "recurringCtas": ["Learn More", "Shop Now", "Sign Up"],
+    "creativeAngles": [],
+    "opportunitiesToTest": [
+      "Test the most frequent hooks against your own offer (sample-limited).",
+      "Compare CTAs used by top-ranked creatives in this dataset only."
+    ]
+  },
+  "limitations": [
+    "Ranking does not imply profitability, reach, or ROI.",
+    "Findings are limited to the collected sample and configured data source.",
+    "ADS_SOURCE=mock – using fixture advertisements."
+  ],
+  "rankedAdsPreview": [
+    {
+      "adId": "ad_1001",
+      "advertiser": "Learnify Online",
+      "score": 80,
+      "scoreExplanation": [
+        "+25 text available",
+        "+20 source URL present",
+        "+15 CTA present",
+        "+15 start date present",
+        "+5 medium analysis confidence"
+      ]
+    }
+  ]
+}

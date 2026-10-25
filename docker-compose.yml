@@ -1,0 +1,26 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.example
+    environment:
+      - NODE_ENV=production
+      - ADS_SOURCE=mock
+      - LLM_PROVIDER=mock
+      - CORS_ORIGIN=http://localhost:5173
+    volumes:
+      - ./tests/fixtures:/app/tests/fixtures:ro
+
+  # Frontend is developed via Vite locally for now.
+  # Production static serving will be added later.
+  # web:
+  #   build:
+  #     context: ./client
+  #   ports:
+  #     - "5173:80"
+  #   depends_on:
+  #     - api

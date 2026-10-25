@@ -1,0 +1,48 @@
+{
+  "description": "Example observability trace from a mock research run (no secrets).",
+  "runId": "demo-run-0001",
+  "status": "partial",
+  "request": {
+    "niche": "online education",
+    "country": "Poland",
+    "competitors": ["Learnify Online", "SkillSprint"],
+    "keywords": ["english course"],
+    "maxAds": 10
+  },
+  "traceSummary": {
+    "iterations": 1,
+    "decision": "Evidence OK: 3 ads, 3 with text, 2 niche-related | iterations=1 | ads=3",
+    "toolCalls": [
+      {
+        "tool": "searchCompetitorAds",
+        "status": "ok",
+        "durationMs": 12,
+        "detail": "iter=1; source=mock; batch=3; total=3; queries=online education Poland | english course online education | Learnify Online | SkillSprint"
+      },
+      {
+        "tool": "analyzeCreatives",
+        "status": "ok",
+        "durationMs": 4,
+        "detail": "provider=mock; ads=3"
+      },
+      {
+        "tool": "validateAndRankAds",
+        "status": "ok",
+        "durationMs": 1,
+        "detail": "ranked=3"
+      }
+    ]
+  },
+  "guardrails": {
+    "requestTimeoutMs": 120000,
+    "maxIterations": 3,
+    "minAds": 3,
+    "untrustedAdDataDelimited": true,
+    "promptInjectionFilter": true,
+    "notes": [
+      "Ads text is sanitized before LLM prompts.",
+      "User input with jailbreak/injection patterns is refused.",
+      "Research runs fail with TIMEOUT (504) if AGENT_REQUEST_TIMEOUT_MS is exceeded."
+    ]
+  }
+}

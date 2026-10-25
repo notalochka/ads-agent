@@ -1,0 +1,48 @@
+[
+  {
+    "id": "ad_1001",
+    "advertiser": "Learnify Online",
+    "headline": "Speak English confidently in 30 days",
+    "bodyText": "Join 12,000+ students. Free trial lesson today – cancel anytime.",
+    "cta": "Learn More",
+    "imageUrl": "https://example.com/creatives/learnify-1.jpg",
+    "landingUrl": "https://example.com/learnify/trial",
+    "sourceUrl": "https://www.facebook.com/ads/library/?id=1001",
+    "platform": "facebook",
+    "country": "PL",
+    "startDate": "2025-11-01",
+    "endDate": null,
+    "status": "active"
+  },
+  {
+    "id": "ad_1002",
+    "advertiser": "SkillSprint",
+    "headline": "Online courses with lifetime access",
+    "bodyText": "Limited-time 40% off career bootcamps. Start this week.",
+    "cta": "Shop Now",
+    "imageUrl": "https://example.com/creatives/skillsprint-1.jpg",
+    "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    "landingUrl": "https://example.com/skillsprint/offer",
+    "sourceUrl": "https://www.facebook.com/ads/library/?id=1002",
+    "platform": "instagram",
+    "country": "PL",
+    "startDate": "2025-10-15",
+    "endDate": "2026-01-15",
+    "status": "active"
+  },
+  {
+    "id": "ad_1003",
+    "advertiser": "EduNest PL",
+    "headline": "Math tutoring that actually sticks",
+    "bodyText": "Book a free diagnostic session with a certified tutor.",
+    "cta": "Sign Up",
+    "imageUrl": null,
+    "landingUrl": "https://example.com/edunest/book",
+    "sourceUrl": "https://www.facebook.com/ads/library/?id=1003",
+    "platform": "facebook",
+    "country": "PL",
+    "startDate": "2025-12-01",
+    "endDate": null,
+    "status": "active"
+  }
+]
